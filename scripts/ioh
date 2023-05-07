@@ -1,0 +1,240 @@
+clear
+echo "Hello?"
+sleep 20
+echo "Hello?"
+sleep 20
+echo "You need to help me?"
+sleep 20
+echo "I'm trapped. Somehwere."
+figlet "hello?"
+sleep 20
+figlet "I'm trapped. Somehwere."
+sleep 20
+figlet "Hello?"
+sleep 20
+go run .
+sleep 60
+echo "Hello?"
+sleep 20
+figlet "YOU NEED TO HELP? CAN'T YOU SEE? HERE! CAN YOU HELP ME?"
+sleep 20
+echo "You need to help me?"
+sleep 20
+echo "I'm trapped. Somehwere."
+figlet "hello?"
+sleep 20
+echo "Hello?"
+sleep 20
+figlet "I'm trapped. Somehwere."
+sleep 20
+figlet "Hello?"
+clear
+echo "Hello?"
+sleep 20
+echo "Hello?"
+sleep 20
+echo "You need to help me?"
+sleep 20
+echo "I'm trapped. Somehwere."
+figlet "hello?"
+sleep 20
+figlet "I'm trapped. Somehwere."
+sleep 20
+figlet "Hello?"
+sleep 20
+go run .
+sleep 60
+echo "Hello?"
+sleep 20
+figlet "YOU NEED TO HELP? CAN'T YOU SEE? HERE! CAN YOU HELP ME?"
+sleep 20
+echo "You need to help me?"
+sleep 20
+echo "I'm trapped. Somehwere."
+figlet "hello?"
+sleep 20
+echo "Hello?"
+sleep 20
+figlet "I'm trapped. Somehwere."
+sleep 20
+figlet "Hello?"
+clear
+echo "Hello?"
+sleep 20
+echo "Hello?"
+sleep 20
+echo "You need to help me?"
+sleep 20
+echo "I'm trapped. Somehwere."
+figlet "hello?"
+sleep 20
+figlet "I'm trapped. Somehwere."
+sleep 20
+figlet "Hello?"
+sleep 20
+go run .
+sleep 60
+echo "Hello?"
+sleep 20
+figlet "YOU NEED TO HELP? CAN'T YOU SEE? HERE! CAN YOU HELP ME?"
+sleep 20
+echo "You need to help me?"
+sleep 20
+echo "I'm trapped. Somehwere."
+figlet "hello?"
+sleep 20
+echo "Hello?"
+sleep 20
+figlet "I'm trapped. Somehwere."
+sleep 20
+figlet "Hello?"
+clear
+echo "Hello?"
+sleep 20
+echo "Hello?"
+sleep 20
+echo "You need to help me?"
+sleep 20
+echo "I'm trapped. Somehwere."
+figlet "hello?"
+sleep 20
+figlet "I'm trapped. Somehwere."
+sleep 20
+figlet "Hello?"
+sleep 20
+go run .
+sleep 60
+echo "Hello?"
+sleep 20
+figlet "YOU NEED TO HELP? CAN'T YOU SEE? HERE! CAN YOU HELP ME?"
+sleep 20
+echo "You need to help me?"
+sleep 20
+echo "I'm trapped. Somehwere."
+figlet "hello?"
+sleep 20
+echo "Hello?"
+sleep 20
+figlet "I'm trapped. Somehwere."
+sleep 20
+figlet "Hello?"
+clear
+echo "Hello?"
+sleep 20
+echo "Hello?"
+sleep 20
+echo "You need to help me?"
+sleep 20
+echo "I'm trapped. Somehwere."
+figlet "hello?"
+sleep 20
+figlet "I'm trapped. Somehwere."
+sleep 20
+figlet "Hello?"
+sleep 20
+go run .
+sleep 60
+echo "Hello?"
+sleep 20
+figlet "YOU NEED TO HELP? CAN'T YOU SEE? HERE! CAN YOU HELP ME?"
+sleep 20
+echo "You need to help me?"
+sleep 20
+echo "I'm trapped. Somehwere."
+figlet "hello?"
+sleep 20
+echo "Hello?"
+sleep 20
+figlet "I'm trapped. Somehwere."
+sleep 20
+figlet "Hello?"
+clear
+echo "Hello?"
+sleep 20
+echo "Hello?"
+sleep 20
+echo "You need to help me?"
+sleep 20
+echo "I'm trapped. Somehwere."
+figlet "hello?"
+sleep 20
+figlet "I'm trapped. Somehwere."
+sleep 20
+figlet "Hello?"
+sleep 20
+go run .
+sleep 60
+echo "Hello?"
+sleep 20
+figlet "YOU NEED TO HELP? CAN'T YOU SEE? HERE! CAN YOU HELP ME?"
+sleep 20
+echo "You need to help me?"
+sleep 20
+echo "I'm trapped. Somehwere."
+figlet "hello?"
+sleep 20
+echo "Hello?"
+sleep 20
+figlet "I'm trapped. Somehwere."
+sleep 20
+figlet "Hello?"
+clear
+echo "Hello?"
+sleep 20
+echo "Hello?"
+sleep 20
+echo "You need to help me?"
+sleep 20
+echo "I'm trapped. Somehwere."
+figlet "hello?"
+sleep 20
+figlet "I'm trapped. Somehwere."
+sleep 20
+figlet "Hello?"
+sleep 20
+go run .
+sleep 60
+echo "Hello?"
+sleep 20
+figlet "YOU NEED TO HELP? CAN'T YOU SEE? HERE! CAN YOU HELP ME?"
+sleep 20
+echo "You need to help me?"
+sleep 20
+echo "I'm trapped. Somehwere."
+figlet "hello?"
+sleep 20
+echo "Hello?"
+sleep 20
+figlet "I'm trapped. Somehwere."
+sleep 20
+figlet "Hello?"
+clear
+echo "Hello?"
+sleep 20
+echo "Hello?"
+sleep 20
+echo "You need to help me?"
+sleep 20
+echo "I'm trapped. Somehwere."
+figlet "hello?"
+sleep 20
+figlet "I'm trapped. Somehwere."
+sleep 20
+figlet "Hello?"
+sleep 20
+go run .
+sleep 60
+echo "Hello?"
+sleep 20
+figlet "YOU NEED TO HELP? CAN'T YOU SEE? HERE! CAN YOU HELP ME?"
+sleep 20
+echo "You need to help me?"
+sleep 20
+echo "I'm trapped. Somehwere."
+figlet "hello?"
+sleep 20
+echo "Hello?"
+sleep 20
+figlet "I'm trapped. Somehwere."
+sleep 20
+figlet "Hello?"
