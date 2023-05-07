@@ -23,7 +23,7 @@ func reverse(lines []string) []string {
 	return newLines
 }
 
-func getAnimation(dir string, colors []termbox.Attribute) []string {
+func getAnimation(dir string) []string {
 	files, err := ioutil.ReadDir("./frames/" + dir)
 	if err != nil {
 		log.Fatal(err)
@@ -37,20 +37,13 @@ func getAnimation(dir string, colors []termbox.Attribute) []string {
 		}
 	}
 
-	if len(frames) == 1 {
-		img := frames[0]
-		for i := 1; i < len(colors); i++ {
-			frames = append(frames, img)
-		}
-	}
-
 	return frames
 }
 
 func draw(orientation string, animation string, color string) {
-	colors := getColor(color)
 	termbox.Clear(termbox.ColorDefault, termbox.ColorDefault)
-	frames = getAnimation(animation, colors)
+	frames = getAnimation(animation)
+	colors := getColor(color)
 	lines := strings.Split(frames[frame_index], "\n")
 
 	if orientation == "aussie" {
@@ -58,18 +51,12 @@ func draw(orientation string, animation string, color string) {
 	}
 
 	for x, line := range lines {
-		color := termbox.Attribute(0)
-		if frame_index == len(colors) {
-			colors_index = 1
-		}
 		for y, cell := range line {
-			color = colors[colors_index]
-			termbox.SetCell(y, x, cell, color, termbox.ColorDefault)
+			termbox.SetCell(y, x, cell, colors[colors_index], termbox.ColorDefault)
 		}
 	}
 
 	termbox.Flush()
-	//TODO insert weird counters
 	frame_index++
 	if frame_index == len(frames) {
 		frame_index = 0

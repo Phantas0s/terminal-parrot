@@ -1,6 +1,8 @@
 package main
 
-import "github.com/nsf/termbox-go"
+import (
+	"github.com/nsf/termbox-go"
+)
 
 var c map[string]int = map[string]int{
 	"#000000": 16,
@@ -290,12 +292,12 @@ func getColor(color string) []termbox.Attribute {
 			})
 	case "acid_green":
 		return createColor([]string{
-			"#5faf00",
-			"#5faf5f",
-			"#5faf87",
-			"#5fafaf",
-			"#5fafd7",
-			"#5fafff",
+			"#5fff00",
+			"#5fff5f",
+			"#87ff5f",
+			"#87ff87",
+			"#87ff5f",
+			"#5fff5f",
 		})
 	default:
 		return createColor([]string{
