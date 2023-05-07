@@ -15,6 +15,8 @@ func main() {
 	loops := flag.Int("loops", 0, "number of times to loop (default: infinite)")
 	delay := flag.Int("delay", 75, "frame delay in ms")
 	orientation := flag.String("orientation", "regular", "regular or aussie")
+	animation := flag.String("animation", "goomba", "animation name")
+	colors := flag.String("colors", "blue", "color name")
 	flag.Parse()
 
 	if !isatty.IsTerminal(os.Stdout.Fd()) && !isatty.IsCygwinTerminal(os.Stdout.Fd()) {
@@ -38,13 +40,13 @@ func main() {
 	termbox.SetOutputMode(termbox.Output256)
 
 	loop_index := 0
-	draw(*orientation)
+	draw(*orientation, *animation, *colors)
 
 loop:
 	for {
 		select {
 		case ev := <-event_queue:
-			if (ev.Type == termbox.EventKey && (ev.Key == termbox.KeyEsc || ev.Key == termbox.KeyCtrlC)) || ev.Type == termbox.EventInterrupt {
+			if (ev.Type == termbox.EventKey && (ev.Key == termbox.KeyCtrlC)) || ev.Type == termbox.EventInterrupt {
 				break loop
 			}
 		default:
@@ -52,7 +54,7 @@ loop:
 			if *loops > 0 && (loop_index/9) >= *loops {
 				break loop
 			}
-			draw(*orientation)
+			draw(*orientation, *animation, *colors)
 			time.Sleep(time.Duration(*delay) * time.Millisecond)
 		}
 	}
